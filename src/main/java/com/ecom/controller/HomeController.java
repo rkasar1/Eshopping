@@ -24,4 +24,18 @@ public class HomeController {
 	{
 		return "login";
 	}
+	
+	
+	
+	@GetMapping("/product")
+	public String products()
+	{
+		return "product";
+	}
+	
+	@GetMapping("/products")
+	public String product()
+	{
+		return "view_product";
+	}
 }
