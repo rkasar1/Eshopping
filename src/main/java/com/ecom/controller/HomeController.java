@@ -26,7 +26,6 @@ public class HomeController {
 	}
 	
 	
-	
 	@GetMapping("/product")
 	public String products()
 	{
